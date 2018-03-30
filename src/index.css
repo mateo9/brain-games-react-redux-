@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+/* .first-game-container {
+
+	display: grid;
+	grid-template-columns: 30%, 70%;
+	grid-template-rows: 50%, 25%, 25%;
+	
+} */
+
+
+.first-game-block {
+
+	border: 10px, solid, black;
+	width: 20px;
+	height: 15px;
+}
