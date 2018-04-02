@@ -1,3 +1,7 @@
+body {
+    background-color: #B38867;
+}
+
 .first-game-container {
 	display: grid;
 	width: 100%;
@@ -35,11 +39,19 @@
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 1 / 2 / span 1 / span 1
+}
+
+.class0:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
 }
 
 
@@ -48,11 +60,19 @@
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 1 / 3 / span 1 / span 1
+}
+
+.class1:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
 }
 
 
@@ -60,11 +80,19 @@
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 1 / 4 / span 1 / span 1
+}
+
+.class2:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
 }
 
 
@@ -72,7 +100,9 @@
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
@@ -80,16 +110,30 @@
 
 }
 
+.class3:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 
 .class4 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 1 / 6 / span 1 / span 1
+}
+
+.class4:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
 }
 
 
@@ -97,18 +141,28 @@
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 2 / 2 / span 1 / span 1
 }
 
+.class5:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 .class6 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
@@ -116,165 +170,286 @@
 
 }
 
+.class6:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 .class7 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 2 / 4 / span 1 / span 1
 }
 
+.class7:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 .class8 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 2 / 5 / span 1 / span 1
 }
 
+.class8:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 .class9 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 2 / 6 / span 1 / span 1
 }
 
+.class9:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 .class10 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 3 / 2 / span 1 / span 1
 }
 
+.class10:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 .class11 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 3 / 3 / span 1 / span 1
 }
 
+.class11:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 .class12 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 3 / 4 / span 1 / span 1
 }
 
+.class12:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 .class13 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 3 / 5 / span 1 / span 1
 }
 
+.class13:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 .class14 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 3 / 6 / span 1 / span 1
 }
 
+.class14:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 .class15 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 4 / 2 / span 1 / span 1
 }
 
+.class15:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 .class16 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 4 / 3 / span 1 / span 1
 }
 
+.class16:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 .class17 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 4 / 4 / span 1 / span 1
 }
 
+.class17:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
+
 .class18 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 4 / 5 / span 1 / span 1
 }
 
+.class18:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 .class19 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 4 / 6 / span 1 / span 1
 }
 
+.class19:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 .class20 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 5 / 2 / span 1 / span 1
 }
 
+.class20:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 .class21 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
@@ -282,35 +457,65 @@
 
 }
 
+.class21:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 .class22 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 5 / 4 / span 1 / span 1
 }
 
+.class22:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 .class23 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 5 / 5 / span 1 / span 1
 }
 
+.class23:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
+}
+
 .class24 {
 	padding: 30px;
     margin: 10px;
     font-size: 25px;
-    color:  red;
+    color: white;
+    text-align:  center;
+    font-weight: bold;
     border: 3px solid black;
     width: 40px;
     height: 30px;
     grid-area: 5 / 6 / span 1 / span 1
+}
+
+.class24:active {
+    box-shadow: 10px 0px 10px #ffc600;
+    border-color: #ffc600;
+    transform: scale(1.1);
 }
